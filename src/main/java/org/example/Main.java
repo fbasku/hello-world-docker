@@ -6,9 +6,9 @@ public class Main {
 
         int count =0;
         while (true) {
-            Thread.sleep(2*1000);
             System.out.println("Jetzt gehts los");
-            System.out.println(format("App running ... %d", count++));
+            Thread.sleep(2*1000);
+            System.out.println(format("App running continuously... %d", count++));
         }
     }
 }
